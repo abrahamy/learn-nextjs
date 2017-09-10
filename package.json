@@ -6,6 +6,9 @@
   "repository": "https://github.com/abrahamy/nextjs-app",
   "author": "Abraham Yusuf <aaondowasey@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "next"
+  },
   "dependencies": {
     "next": "^3.2.2",
     "react": "^15.6.1",
