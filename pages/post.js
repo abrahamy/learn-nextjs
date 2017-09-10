@@ -1,14 +1,8 @@
 import Layout from '../components/Layout.js'
 
-const Content = (props) => (
-  <div>
+export default (props) => (
+  <Layout>
     <h1>{props.url.query.title}</h1>
     <p>This is the blog post content.</p>
-  </div>
-)
-
-export default () => (
-  <Layout>
-    <Content />
   </Layout>
 )
